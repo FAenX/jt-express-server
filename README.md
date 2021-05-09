@@ -2,17 +2,17 @@
 express server
 
 install dependencies
-### #npm install
+## #npm install
 
 build application<br/>
 important
-### #npm run build
+## #npm run build
 you can only skip this step if you have <br/>
 nodemon installed globally, then you can run
-### #nodemon
+## #nodemon
 
 start application
-### npm start
+## npm start
 
 
 
