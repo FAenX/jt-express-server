@@ -1,10 +1,19 @@
 # jt-express-server
 express server
 
-## npm install
+install dependencies
+## #npm install
 
-## npm run build
+build application<br/>
+important
+## #npm run build
+you can only skip this step if you have <br/>
+nodemon installed globally, then you can run
+## #nodemon
 
+start application
 ## npm start
+
+
 
 visit localhost:3000/api
