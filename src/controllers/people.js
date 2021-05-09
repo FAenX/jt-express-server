@@ -14,9 +14,9 @@ export function findPeople  (request, response) {
 
 export function addPerson  (request, response) {
     const {name, age} = request.body
-    if(!name | !age){
+    if(!name | !age | typeof age != Number){
         return response.status(400)
-        .send({status: 'error', data: {error: 'name and age required'}})
+        .send({status: 'error', data: {error: 'name and age required, age should be a number'}})
     }
     postPeople([{name, age}]).then(people=>{
         // console.log(people)
